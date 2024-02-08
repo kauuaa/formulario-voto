@@ -2,7 +2,10 @@ Programa para verificar se um eleitor tem idade para votar
 
 O programa contém 4 arquivos, sendo:
 
-arquivo princiapl: voto_main.js arquido das classes: voto_class.js interface com o usuário: voto.html estilos do sistema: voto.css
+Arquivo principal: voto_main.js 
+Arquivo das classes: voto_class.js 
+Interface com o usuário: voto.html 
+Estilos do sistema: voto.css
 
 Product Owner: 
 - Carlos Silva

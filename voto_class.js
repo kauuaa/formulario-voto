@@ -14,9 +14,6 @@ class Eleitor{
             return `o voto é facultativo!`
         }else if(idade >= 18 && idade <= 70){
             return `o voto é obrigatório!`
-        }else if(idade >= 100){
-            window.alert ("Insira uma idade válida!")
-            return 
         }
     }
 }

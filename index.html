@@ -10,17 +10,21 @@
 <body>
     <div class="box">
         <h1>Sistema para identificar a legibilidade do voto.</h1>
-        <label for="nome">Digite o nome do eleitor</label>
-        <input type="text" name="inputNome" id="nome" placeholder="Nome do eleitor">
-        <label for="idade">Digite a idade do eleitor</label>
-        <input type="text" name="inputIdade" id="idade" placeholder="Idade do eleitor">
-        <label for="titulo">Digite o titulo do eleitor</label>
-        <input type="text" name="inputTitulo" id="titulo" placeholder="Titulo do eleitor">
-      
+        <label for="nome">Digite o nome do eleitor:</label>
+        <input type="text" id="nome" placeholder="Nome do eleitor">
+        <span id="mensagemNome" class="mensagemErro"></span>
+
+        <label for="idade">Digite a idade do eleitor:</label>
+        <input type="text" id="idade" placeholder="Idade do eleitor">
+        <span id="mensagemIdade" class="mensagemErro"></span>
+
+        <label for="titulo">Digite o título do eleitor:</label>
+        <input type="text" id="titulo" placeholder="Título do eleitor">
+        <span id="mensagemTitulo" class="mensagemErro"></span>
+
         <button id="verificar">Verificar</button>
         <div id="resposta"></div>
     </div>
-    
 
     <script src="voto_main.js"></script>
     <script src="voto_class.js"></script>
